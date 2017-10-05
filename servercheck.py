@@ -8,7 +8,7 @@ class Mycog:
 		self.bot = bot
 
 	@commands.command()
-	async def isserverup(self):
+	async def ss(self):
 		"""Checks if a server is up"""
 
 		import socket;
