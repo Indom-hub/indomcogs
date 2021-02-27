@@ -13,11 +13,11 @@ class Mycog:
 
 		import socket;
 		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		result = sock.connect_ex(("77.73.68.182", 30120-30120 is default for FiveM ))
+		result = sock.connect_ex(("142.44.234.80", 30120-30120 is default for FiveM ))
 		if result == 0:
-			await self.bot.say("The Pre-Alpha Server is currently: __**Online!**__ :partyingface:")
+			await self.bot.say("The CivLife server is currently: __**Online!**__ :partyingface:")
 		else:
-			await self.bot.say("The Pre-Alpha Server is Currently: __**Offline**__ :loudlycryingface:")
+			await self.bot.say("The CivLife server is Currently: __**Offline**__ :loudlycryingface:")
 			
 	@commands.command()
 	async def status developement(self):
