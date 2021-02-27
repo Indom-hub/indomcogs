@@ -13,7 +13,7 @@ class Mycog:
 
 		import socket;
 		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		result = sock.connect_ex(("142.44.234.80", 30120-30120 is default for FiveM ))
+		result = sock.connect_ex(("82.11.78.255", 30120-30120 is default for FiveM ))
 		if result == 0:
 			await self.bot.say("The CivLife server is currently: __**Online!**__ :partyingface:")
 		else:
